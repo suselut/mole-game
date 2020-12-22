@@ -1,0 +1,48 @@
+body {
+    background-color: #BAD2CE;
+}
+
+
+#bg {
+    height: 630px;
+    width: 1200px;
+    background-image: url('./static/mole-game/background.png');
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+    position: relative;
+}
+
+.hole {
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    margin: 0px 50px;
+    border-radius: 100px;
+}
+
+.hole img {
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.score-count {
+    position: absolute;
+    z-index: 10;
+    top: 20px;
+    left: 50px;
+    background-color: #B89423;
+    padding: 0.3rem;
+    font-size: 2rem;
+    border: black 2px solid;
+}
+
+.score-count p {
+    margin: 0;
+    display: inline-block;
+}
